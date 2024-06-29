@@ -45,5 +45,5 @@ const data = [
     ],
   ];
 const [{id:id1},{id:id2}] = data;
-id1
-id2
+const foundObject = data.find(item => item.id === 2);
+foundObject
